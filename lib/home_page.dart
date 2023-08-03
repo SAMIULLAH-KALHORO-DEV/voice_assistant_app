@@ -50,7 +50,7 @@ class _HomPageState extends State<HomPage> {
               borderRadius:
                   BorderRadius.circular(20).copyWith(topLeft: Radius.zero)),
           child: const Text(
-            "Good Morning What Task can i do for you ",
+            "Good Morning What Task can I do for you ",
             style: TextStyle(
                 color: Pallete.mainFontColor,
                 fontSize: 20,
@@ -63,7 +63,7 @@ class _HomPageState extends State<HomPage> {
           alignment: Alignment.centerLeft,
           margin: const EdgeInsets.only(top: 10, left: 22),
           child: const Text(
-            "Here are a few features",
+            "Here are  few features",
             style: TextStyle(
                 fontFamily: 'Cera Pro',
                 color: Pallete.mainFontColor,
