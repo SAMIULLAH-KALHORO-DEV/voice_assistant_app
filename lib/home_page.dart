@@ -13,7 +13,7 @@ class _HomPageState extends State<HomPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Allen"),
+        title: const Text("Assistant"),
         centerTitle: true,
         leading: const Icon(Icons.menu),
       ),
