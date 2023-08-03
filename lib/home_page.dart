@@ -72,9 +72,7 @@ class _HomPageState extends State<HomPage> {
           ),
         ),
         // feature list
-        Column(children: [
-          
-        ],)
+        
       ]),
     );
   }
