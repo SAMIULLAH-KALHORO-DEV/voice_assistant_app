@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:voice_assistant_app/pallete.dart';
 
+import 'feature_box.dart';
+
 class HomPage extends StatefulWidget {
   const HomPage({super.key});
 
@@ -72,8 +74,29 @@ class _HomPageState extends State<HomPage> {
           ),
         ),
         // feature list
-        
+        const FeatureBox(
+          color: Pallete.firstSuggestionBoxColor,
+          headerText: "Chat GPT",
+          discriptionText:
+              "A smarter way to stay organized and informed with CHATGPT",
+        ),
+        const FeatureBox(
+          color: Pallete.firstSuggestionBoxColor,
+          headerText: "Dall-E",
+          discriptionText:
+              "Get inspire and stay active with your personal assistant powered by Dall-E",
+        ),
+        const FeatureBox(
+          color: Pallete.firstSuggestionBoxColor,
+          headerText: "Smart Voice Assistant ",
+          discriptionText:
+              "Get Best of of both worlds with a voice assistant powered by Dall-E and Chat GPT",
+        ),
       ]),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: const Icon(Icons.mic),
+      ),
     );
   }
 }
